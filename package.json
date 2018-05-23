@@ -1,0 +1,31 @@
+{
+  "name": "game-on",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps-aux/game-on.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ps-aux/game-on/issues"
+  },
+  "homepage": "https://github.com/ps-aux/game-on#readme",
+  "dependencies": {
+    "phaser": "^3.8.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
